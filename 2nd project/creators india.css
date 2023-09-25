@@ -1,0 +1,658 @@
+  /* common */
+  .greenline {
+    margin-top: -15px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    width: 45px;
+    background-color: hsl(120, 78%, 47%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Montserrat',sans-serif;
+}
+
+     /* 1st page html */
+
+     body{
+        margin: 0px;
+    }
+    .container01{
+        background-image: linear-gradient(to right,hsl(265, 87%, 60%),hsl(240, 95%, 24%));
+        padding-top: 170px;
+        padding-bottom: 94px;
+    }
+    .box{
+         max-width: 1150px;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    
+    .header{
+
+        z-index: 100;
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(195, 182, 182);
+        margin-top: 0px;
+    }
+    .logo{
+        width: 22%;
+        text-align: right;
+    }
+    .link{
+        width: 78%;
+    }
+    .link ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 25px;
+        font-family: "Work Sans",sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        width: 930px;
+        margin-left: 30px;
+        margin-right: auto;
+    }
+    
+    .link ul li a{
+        text-decoration: none;
+        color: white;
+        transition: 0s;
+        padding-bottom: 8px;
+    }
+    
+    .link ul li a:hover{
+        border-bottom: solid 3px rgb(68, 221, 12);
+    }
+    .link ul .active{
+        border-bottom: solid 3px rgb(68, 221, 12);
+    }
+    .link ul .user span{
+        margin-left: 5px;
+    }
+    .link ul .user img{
+        margin-bottom: -3px;
+    }
+    .link ul .user  {
+       border: solid 0px;
+       padding: 14px 12px;
+       background-color: orangered;
+       transition: 0.1s;
+    }
+    .link ul .user:hover{
+       color: black;
+    }
+    
+    .boxes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .box1{
+        width: 50%;
+    }
+    .textheading{
+        width: 90%;
+        font-family: "Source Sans Pro",sans-serif;
+        color: white;
+    
+    }
+    
+    .textheading h3{
+        margin-top: -43px;
+        font-size: 39px;
+    }
+    .textheading h1{
+        font-size: 58px;
+        line-height: 57px;
+        margin-top: 50px;
+    }
+    .textheading h2{
+        font-size: 38px;
+        margin-bottom: -28px;
+        margin-top: 50px;
+    }
+    .textheading a{
+        text-decoration: none;
+        color: white;
+        font-family: "Work Sans",sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        border: solid 0px;
+        padding: 10px 26px;
+        background-color: hsl(146, 90%, 47%);
+        transition: 1s;
+    }
+    .textheading a:hover{
+        background-color: transparent;
+        border: solid 5px hsl(146, 90%, 47%);
+        color: hsl(146, 90%, 47%);
+    }
+    .textheading p{
+        margin-bottom: 45px;
+        margin-top: -8px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    
+/* 2nd page css */
+.box .heading h2{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.box .heading  h3{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: -18px;
+}
+.subheading{
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.box .heading h2 span{
+    margin-top: 0px;
+}
+.para{
+    width: 54%;
+    font-family: 'poppins',sans-serif;
+}
+.image{
+    width: 47%;
+    animation: priyan 3s infinite linear;
+}
+@keyframes priyan {
+    10%{
+        margin-left: 2px;
+    }
+    50%{
+        margin-left: 10px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+    
+}
+.boxes{
+    display: flex;
+    
+}
+.para p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.para .list{
+    margin-top: -30px;
+    display: flex;
+    
+}
+.list .ul{
+    width: 50%;
+}
+h5{
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
+}
+.list .ul a{
+    display: block;
+    text-decoration: none;
+    margin-top: -8px;
+    color: black;
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list .ul i{
+    color: red;
+    margin-right: 10px;
+    font-weight: 900;
+
+}
+
+.lastline {
+    margin-top: -15px;
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    line-height: 25px;
+}
+
+
+/* 3rd page css */
+.containerbgcl{
+    background-color: #00515f;
+}
+
+.page3text{
+    color: white;
+}
+.page3text h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.page3text h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.circles{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.circles .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color:#0b6e80;
+    border-radius: 50%;
+    border: 1px solid #04b7d6;
+    transition: all .4s ease;
+}
+.circle:hover{
+  background-color: #60848b;
+  transform: scale(0.9999);
+}
+
+.arrow{
+    position: relative;
+    left:-10px;
+    top: 65px;
+    width: 80px;
+    height: 2px;
+    background-color: green;
+}
+
+.sidearrow{
+    position: relative;
+    top: 49px;
+    left: -34px;
+    font-size: 30px;
+    color: green;
+}
+
+.circletext{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+
+.circletext p {
+    position: relative;
+    top: 25px;
+    left: 45px;
+    margin-bottom: 90px;
+}
+
+.circletextp1{
+    position: relative;
+    left: -85px;
+}
+.circletextp2{
+    position: relative;
+    left: -50px;
+}
+
+
+
+/* 4th page css */
+
+.heading4{
+    text-align: center;
+}
+
+.heading4 p{
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 14px;
+}
+.heading4 h2{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 26px;
+}
+
+.content4{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+
+}
+
+.content4 .circles4{
+    width: 450px;
+    height: 450px;
+    border: dotted;
+    max-width: 40%;
+    margin: auto;
+    border-radius: 50%;
+}
+.content4 .textbox4{
+    width: 500px;
+    height: 350px;
+    background-color:rgba(175, 212, 120, 0.8);
+    border: 2px solid rgba(175, 212, 120, 0.8);
+    max-width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.circles4 .circle4{
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    /* border: solid; */
+    border-radius: 50%;
+    background-color: hsl(0, 33%, 98%);
+    border: solid rgb(164, 160, 160);
+}
+
+.circle4 img{
+  
+    margin-top: 30px;
+}
+.circle4 p{
+    font-weight: 700;
+    line-height: 24px;
+    width: 108px;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+.circles4 .circle4-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.c1{
+    position: relative;
+    top: -50px;
+    left: 58px;
+}
+.c2{
+    position: relative;
+    top: -50px;
+    left: -58px;
+}
+.c3{
+    position: relative;
+    top: -40px;
+    left: -60px;
+}
+.c4{
+    position: relative;
+    top: -40px;
+    left: 60px;
+}
+.c5{
+    position: relative;
+    top: -44px;
+    left: 50px;
+}
+.c6{
+    position: relative;
+    top: -44px;
+    left: -50px;
+}
+
+
+
+.textbox4 .textbox4-heading{
+    text-align: center;
+    font-size:24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family:'Montserrat',sans-serif;
+    
+}
+.textbox4 a{
+   text-decoration: none;
+   color: white;
+}
+.textbox4 a:hover{
+    color: yellow;
+}
+.textbox4 img{
+    position: relative;
+    top: 6px;
+    color: white;
+}
+
+
+.textbox4 .textbox4-para{
+    font-size: 16px;
+    font-family: "Work Sans",sans-serif;
+    text-align: justify;
+    line-height: 26px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox4 .textbox4-para li{
+    position: relative;
+    left: -37px;
+    list-style-type: none;
+
+}
+.textbox4 .textbox4-para li i{
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.page4line{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    height: 300px;
+    width: 0.25px;
+    background-color: brown;
+}
+
+
+/* 5thpage css */
+
+.pading5{
+    padding-top: 50px;
+}
+.boxes6{
+    display: flex;
+}
+
+.boxes6 .boxes6-1{
+    width: 50%;
+}
+.box6heading {
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+}
+.box6heading p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+.box6heading h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.boxes6-1para{
+    font-family: 'poppins',sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.image5{
+    margin-top: 45px;
+}
+
+.image5 img ,.image5-1 img{
+    padding: 2px;
+    border-bottom: solid 0.1px hsl(0, 1%, 86%);
+    border-right: solid 0.1px hsl(0, 0%, 84%);
+    margin-top: -3px;
+    margin-left: -3px;
+    cursor: pointer;
+    
+}
+
+
+/* last page foter */
+
+.containerblack{
+    background-color: hsl(0, 5%, 12%);
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1{
+    width: 25%;
+}
+
+.blueline{
+    position: absolute;
+    top: 72px;
+    width: 30px;
+    height: 2px;
+    background-color: aqua;
+}
+.footer1 p{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    font-family: 'Work Sans',sans-serif;
+    line-height: 26px;
+
+}
+.footer1 ul,.footer2 ul{
+    margin-left: -30px;
+}
+.footer1 a,li,.footer2 a,li{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+    
+}
+.footer1 a:hover,.footer2 a:hover{
+    color: hsl(195, 67%, 43%);
+}
+
+.footer i{
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: -2px;
+    position: relative;
+    left: -12px;
+    top: 6px;
+}
+.footer1 h6,.footer2 h6{
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    border-bottom: solid 1px rgb(131, 126, 126);
+    padding-bottom: 10px;
+}
+.containerlast{
+    background-color: black;
+    color: white;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+.endlineflex{
+    display: flex;
+   
+}
+.endline{
+    width: 60%;
+    display: flex;
+
+}
+
+.endicon{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.endicon i{
+    font-size: 14px;
+    margin-left: 10px;
+    border: solid 0px gray ;
+    padding: 8px;
+    background-color: rgb(67, 65, 65);
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px white;
+    cursor: pointer;
+}
+
+.endicon i:hover{
+    background-color: hsl(180, 98%, 38%);
+    cursor: pointer;
+}
+
+.endline a{
+    text-decoration: none;
+    color: white;
+}
+
+.endline a:hover{
+    color: hsl(195, 67%, 43%); ;
+}
+
+.endline p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Work Sans",sans-serif;
+}
+
+

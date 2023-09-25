@@ -1,0 +1,261 @@
+.box{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerbg{
+   background-color: rgb(195, 182, 182);
+}
+.header{
+   top: 0px;
+   left: 0px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 16px;
+}
+.logo{
+   width: 22%;
+   text-align: left;
+}
+.link{
+   width: 78%;
+}
+.link ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 25px;
+   font-family: "Work Sans",sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+}
+
+.link ul li a{
+   text-decoration: none;
+   color: white;
+   transition: 0s;
+   padding-bottom: 8px;
+}
+
+.link ul li a:hover{
+   border-bottom: solid 3px rgb(68, 221, 12);
+}
+.link ul .active{
+   border-bottom: solid 3px rgb(68, 221, 12);
+}
+.link ul .user span{
+   margin-left: 5px;
+}
+.link ul .user img{
+   margin-bottom: -3px;
+}
+.link ul .user  {
+  border: solid 0px;
+  padding: 14px 12px;
+  background-color: orangered;
+  transition: 0.1s;
+}
+.link ul .user:hover{
+  color: black;
+}
+
+.email{
+   display: flex;
+   border-bottom: solid 1px grey;
+}
+.empty1{
+   width: 40%;
+}
+.empty2{
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   font-weight: 500;
+   font-family: 'poppins',sans-serif;
+   font-size: 16px;
+   cursor: pointer;
+}
+.empty2 p:hover{
+   color: rgb(6, 243, 251);
+}
+
+.empty2 i{
+   position: relative;
+   left: -10px;
+   font-size: 20px;
+   color: rgb(168, 161, 161);
+}
+
+.container{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+h1{
+   text-align: center;
+   font-weight: 700;
+   font-family: 'Montserrat',sans-serif;
+   font-size: 42px;
+}
+
+.reachusbox{
+   display: flex;
+}
+.address{
+   width: 35%;
+}
+
+.input{
+   width: 65%;
+}
+
+.input input{
+   display: block;
+   width: 80%;
+   height: 40px;
+   background-color: white;
+   border: 1px solid rgb(231, 231, 231);
+   border-bottom: solid 0.99px  rgba(0, 0, 0, 0.15);
+   margin-top: 20px;
+}
+textarea{
+   margin-top:30px ;
+}
+.whiteclr{
+   background-color: hsl(0, 0%, 96%);
+}
+.input a{
+   text-decoration: none;
+   border: solid 5px rgb(14, 153, 239);
+   padding: 10px 20px;
+   position: relative;
+   top: -19px;
+   left: -142px;
+}
+
+.input a:hover{
+   background-color: rgb(14, 153, 239) ;
+   color: white;
+}
+
+
+/* footer */
+
+.container{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.box{
+   max-width: 1150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.containerblack{
+   background-color: hsl(0, 5%, 12%);
+   color: white;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer1{
+   width: 25%;
+}
+
+
+.footer1 p{
+   font-size: 14px;
+   letter-spacing: 0.3px;
+   text-align: justify;
+   font-family: 'Work Sans',sans-serif;
+   line-height: 26px;
+
+}
+.footer1 ul,.footer2 ul{
+   margin-left: -30px;
+}
+.footer1 a,li,.footer2 a,li{
+   text-decoration: none;
+   list-style-type: none;
+   font-family: 'Work Sans',sans-serif;
+   font-size: 16px;
+   line-height: 34px;
+   color: rgb(255, 255, 255);
+   
+}
+.footer1 a:hover,.footer2 a:hover{
+   color: hsl(195, 67%, 43%);
+}
+
+.footer i{
+   color: red;
+   font-size: 18px;
+   font-style: italic;
+   margin-left: -2px;
+   position: relative;
+   left: -12px;
+   top: 6px;
+}
+.footer1 h6,.footer2 h6{
+   font-size: 14px;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: 600;
+   border-bottom: solid 1px rgb(131, 126, 126);
+   padding-bottom: 10px;
+}
+.containerlast{
+   background-color: black;
+   color: white;
+   padding-top: 0px; 
+   padding-bottom: 0px;
+}
+.endlineflex{
+   display: flex;
+  
+}
+.endline{
+   width: 60%;
+   display: flex;
+
+}
+
+.endicon{
+   width: 40%;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.endicon i{
+   font-size: 14px;
+   margin-left: 10px;
+   border: solid 0px gray ;
+   padding: 8px;
+   background-color: rgb(67, 65, 65);
+   border-radius: 50%;
+   box-shadow: 0px 0px 2px white;
+   cursor: pointer;
+}
+
+.endicon i:hover{
+   background-color: hsl(180, 98%, 38%);
+   cursor: pointer;
+}
+
+.endline a{
+   text-decoration: none;
+   color: white;
+}
+
+.endline a:hover{
+   color: hsl(195, 67%, 43%); ;
+}
+
+.endline p{
+   font-weight: 400;
+   font-size: 16px;
+   font-family: "Work Sans",sans-serif;
+}

@@ -1,0 +1,385 @@
+
+.box{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerbg{
+   background-color: rgb(195, 182, 182);
+}
+.header{
+   top: 0px;
+   left: 0px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 16px;
+}
+.logo{
+   width: 22%;
+   text-align: left;
+}
+.link{
+   width: 78%;
+}
+.link ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 25px;
+   font-family: "Work Sans",sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+}
+
+.link ul li a{
+   text-decoration: none;
+   color: white;
+   transition: 0s;
+   padding-bottom: 8px;
+}
+
+.link ul li a:hover{
+   border-bottom: solid 3px rgb(68, 221, 12);
+}
+.link ul .active{
+   border-bottom: solid 3px rgb(68, 221, 12);
+}
+.link ul .user span{
+   margin-left: 5px;
+}
+.link ul .user img{
+   margin-bottom: -3px;
+}
+.link ul .user  {
+  border: solid 0px;
+  padding: 14px 12px;
+  background-color: orangered;
+  transition: 0.1s;
+}
+.link ul .user:hover{
+  color: black;
+}
+
+.email{
+   display: flex;
+   border-bottom: solid 1px grey;
+}
+.empty1{
+   width: 40%;
+}
+.empty2{
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   font-weight: 500;
+   font-family: 'poppins',sans-serif;
+   font-size: 16px;
+   cursor: pointer;
+}
+.empty2 p:hover{
+   color: rgb(6, 243, 251);
+}
+
+.empty2 i{
+   position: relative;
+   left: -10px;
+   font-size: 20px;
+   color: rgb(168, 161, 161);
+}
+
+.bgimg{
+   width: 100%;
+   height: 173px;
+   background-image: url(pricing.jpg);
+   background-repeat: no-repeat;
+   color: white;
+   margin-top: -20px;
+}
+
+.bline{
+   height: 5px;
+   width: 15px;
+   background-color: blue;
+}
+.bgimg h3,.bline{
+   position: relative;
+   top: 30px;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: 500;
+}
+
+.bgimg p,a {
+   position: relative;
+   top: -15px;
+   color: goldenrod;
+   text-decoration: none;
+   font-family: 'poppins',sans-serif;
+   font-size: 14px;
+}
+.bgimg p span{
+   position: relative;
+   top: -15px;
+   color: white;
+   font-size: 12px;
+}
+.bgimg i{
+   font-size: 12px;
+   margin-right: 5px;
+}
+
+.bgimg h2{
+   font-size:41.6px;
+   font-weight: 400;
+   font-family: 'Montserrat',sans-serif;
+}
+
+/* table page css */
+
+.containertable{
+   padding-top: 100px;
+   padding-bottom: 20px;
+}
+.box{
+   max-width: 1150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.th1{
+   width: 488px;
+   height: 78.13px;
+   text-align: left;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-family: "Work Sans",sans-serif;
+   font-weight: 600;
+}
+.th1-1{
+   height: 78.13px;
+   text-align: center;
+   width: 227px;
+   background-color: rgb(239, 239, 239);
+   padding-left: 20px;
+   padding-right:20px;
+   font-family: "Work Sans",sans-serif;
+   font-weight: 600;
+}
+td{
+  text-align: center;
+  height: 50px;
+  font-family: "Work Sans",sans-serif;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 0.2px rgb(221, 221, 221);
+}
+.tr2{
+   height: 68px;
+}
+.table1{
+   border-collapse: collapse;
+}
+
+.leftline1{
+   width: 488px;
+   height: 68px;
+   text-align: left;
+   color: white;
+   padding-left: 10px;
+   padding-left: 10px;
+}
+.leftline2{
+   width: 488px;
+   height: 55px;
+   text-align: left;
+   color: white;
+   padding-left: 10px;
+   padding-left: 10px;
+}
+.lfbg1{
+   background-color:#20a3ff;
+   border: solid  #20a3ff;
+   
+   
+}
+.lfbg2{
+   background-color:#0096ff;
+   border: solid #0096ff;
+  
+}
+.tableheading2 .th2{
+   width: 488px;
+   height: 105px;
+   background-color: #efefef;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-family: "Work Sans",sans-serif;
+   font-weight: 600;
+}
+.tableheading3 .th3{
+   width: 488px;
+   height: 62px;
+   background-color: #efefef;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-family: "Work Sans",sans-serif;
+   font-weight: 600;
+}
+
+.leftlinebutton{
+   width: 483px;
+   height: 83px;
+   border: none;
+}
+.orderbutton{
+   padding: 15px 30px;
+   background-color: rgb(225, 225, 225);
+   border: none;
+   color: grey;
+   transition: ease-in linear;
+}
+.orderbutton:hover{
+   background-color: #3498db;
+   color: white;
+}
+
+tbody,thead{
+   border-right: solid 0.2px rgb(221, 221, 221);
+}
+
+table i{
+   font-weight: bolder;
+   font-size: 20px;
+  
+}
+
+/* footer */
+
+.container{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.box{
+   max-width: 1150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.containerblack{
+   background-color: hsl(0, 5%, 12%);
+   color: white;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer1{
+   width: 25%;
+}
+
+.blueline{
+   position: absolute;
+   top: 72px;
+   width: 30px;
+   height: 2px;
+   background-color: aqua;
+}
+.footer1 p{
+   font-size: 14px;
+   letter-spacing: 0.3px;
+   text-align: justify;
+   font-family: 'Work Sans',sans-serif;
+   line-height: 26px;
+
+}
+.footer1 ul,.footer2 ul{
+   margin-left: -30px;
+}
+.footer1 a,li,.footer2 a,li{
+   text-decoration: none;
+   list-style-type: none;
+   font-family: 'Work Sans',sans-serif;
+   font-size: 16px;
+   line-height: 34px;
+   color: rgb(255, 255, 255);
+   position: relative;
+   top: -4px;
+   
+}
+.footer1 a:hover,.footer2 a:hover{
+   color: hsl(195, 67%, 43%);
+}
+
+.footer i{
+   color: red;
+   font-size: 18px;
+   font-style: italic;
+   margin-left: -2px;
+   position: relative;
+   left: -12px;
+   top: -8px;
+}
+.footer1 h6,.footer2 h6{
+   font-size: 14px;
+   font-family: 'Montserrat',sans-serif;
+   font-weight: 600;
+   border-bottom: solid 1px rgb(131, 126, 126);
+   padding-bottom: 10px;
+}
+.containerlast{
+   background-color: black;
+   color: white;
+   padding-top: 0px; 
+   padding-bottom: 0px;
+}
+.endlineflex{
+   display: flex;
+  
+}
+.endline{
+   width: 60%;
+   display: flex;
+
+}
+
+.endicon{
+   width: 40%;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.endicon i{
+   font-size: 14px;
+   margin-left: 10px;
+   border: solid 0px gray ;
+   padding: 8px;
+   background-color: rgb(67, 65, 65);
+   border-radius: 50%;
+   box-shadow: 0px 0px 2px white;
+   cursor: pointer;
+}
+
+.endicon i:hover{
+   background-color: hsl(180, 98%, 38%);
+   cursor: pointer;
+}
+
+.endline a{
+   text-decoration: none;
+   color: white;
+   position: relative;
+   top: 0px;
+}
+
+.endline a:hover{
+   color: hsl(195, 67%, 43%); ;
+}
+
+.endline p{
+   font-weight: 400;
+   font-size: 16px;
+   font-family: "Work Sans",sans-serif;
+}
